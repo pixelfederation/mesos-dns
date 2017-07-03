@@ -1,7 +1,7 @@
 ################################################################################
-# mesos-dns:1.3.1
-# Date: 07/20/2016
-# Mesos-DNS Version: 0.5.2
+# mesos-dns:1.3.2
+# Date: 07/03/2017
+# Mesos-DNS Version: 0.6.0
 #
 # Description:
 # Provides DNS for almost all services hosted in Mesos. 
@@ -11,7 +11,7 @@ FROM mrbobbytables/ubuntu-base:1.1.0
 
 MAINTAINER Milan Baran / mbaran@pixelfederation.com / @mbaran
 
-ENV VERSION_MESOSDNS=0.5.2
+ENV VERSION_MESOSDNS=0.6.0
 
 RUN apt-get update      \
  && apt-get -y install  \
